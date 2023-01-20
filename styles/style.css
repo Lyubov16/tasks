@@ -1,0 +1,33 @@
+body {
+    margin: 24px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.btn_submit {
+    background-color: rgba(0, 185, 0, 0.849);
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
+
+.btn_remove {
+    background-color: rgb(255, 1, 1);
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
